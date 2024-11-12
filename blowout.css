@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #050333;
+    color: #fff;
+}
+
+.membership-info, .gallery {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.membership-info h2, .gallery h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.membership-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.membership-info ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.join-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #050333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.join-btn:hover {
+    background-color: #050333;
+}
+
+.join-btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.gallery-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.gallery-container img {
+    flex-shrink: 0;
+    width: 200px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+    
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
